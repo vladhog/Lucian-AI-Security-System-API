@@ -5,7 +5,7 @@ import requests
 import aiohttp
 from aiohttp import FormData
 
-api_url = "https://vladhog.ru/lass/api"
+api_url = "https://lass.vladhog.ru/api"
 
 
 def check_nsfw(file: BinaryIO) -> dict:
